@@ -6,7 +6,7 @@ resource "aws_instance" "nginx-server" {
   tags = {
     Name        = "Upb-Nginx-${count.index}"
     Environment = "test"
-    Owner       = "jhosiasmauricio@gmail.com"
+    Owner       = "emanuel.1kll@gmail.com"
     Team        = "DevOps"
     Project     = "webinar"
   }
